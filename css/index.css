@@ -136,5 +136,74 @@ button:hover{
 }
 
 @media(max-width:500px){
+    *{
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    nav #home{
+        font-weight: 900;
+    }
     
+    nav a{
+        /* border: 3px solid pink; */
+        padding: 5%;
+        height: 3vh;
+        font-size: 2rem;
+        padding-top: 1%;
+    }
+    
+    h1{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    button{
+        font-size: 1rem;
+    }
+
+    .title-container div{
+        height: 30vh;
+        width: 100vw;
+        background-size: 230%;
+        margin-bottom: 3%;
+        margin-top: 7%;
+    }
+
+    .artists-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .artists-container img {
+        height: 100%;
+        width: 70%;
+    }
+
+    hr {
+        margin-top: 1%;
+        width: auto;
+        padding-left: 100%;
+        margin-bottom: 5%;
+    }
+
+    .bio {
+        /* border: 3px solid red; */
+        width: 100%;
+        font-size: .7rem;
+        font-weight: bold;
+        padding-right: 10%;
+    }
+
+    .artist{
+        font-size: 2rem;
+        flex-direction: row;
+        width: 50%;
+    }
+
+    .artist a{
+        font-size: 1.5rem;
+    }
 }
